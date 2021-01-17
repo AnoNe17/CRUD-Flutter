@@ -1,0 +1,20 @@
+Maulana Hidayatullah
+マウラナ
+
+email : atomx361@gmail.com
+facebook : https://www.facebook.com/maulana.hidayatullah3/
+instagram : https://www.instagram.com/_17maulana/
+
+
+
+* menginstall library http (flutter)
+https://pub.dev/packages/http/install
+
+
+* Khusus Android 9 (pie)
+buka file AndroidManifest.xml
+folder android[nama_project_android]/app/src/debug
+
+copas :
+<uses-permission android:name="android.permission.INTERNET"/>
+<application android:usesCleartextTraffic="true"></application>
