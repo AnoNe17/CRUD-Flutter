@@ -1,0 +1,11 @@
+* menginstall library http (flutter)
+https://pub.dev/packages/http/install
+
+
+* Khusus Android 9 (pie)
+buka file AndroidManifest.xml
+folder android[nama_project_android]/app/src/debug
+
+copas :
+<uses-permission android:name="android.permission.INTERNET"/>
+<application android:usesCleartextTraffic="true"></application>
